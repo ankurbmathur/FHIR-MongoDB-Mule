@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="MULE_LIB/org.mule.connectors/mule-file-connector/1.3.4"/>
+	<classpathentry kind="con" path="org.mule.tooling.MULE_PROJECT_LIB"/>
+	<classpathentry kind="con" path="MULE_LIB/cc568b69-a181-4d4c-b044-90054c52897b/json-logger/2.0.1"/>
+	<classpathentry kind="con" path="MULE_LIB/com.mulesoft.connectors/mule-mongodb-connector/6.3.4"/>
+	<classpathentry kind="con" path="MULE_LIB/org.mule.modules/mule-apikit-module/1.5.1"/>
+	<classpathentry kind="con" path="MULE_LIB/com.mulesoft.connectors/mule-hl7-extension/4.2.1"/>
+	<classpathentry kind="con" path="MULE_LIB/com.mulesoft.munit/munit-tools/2.3.4"/>
+	<classpathentry kind="con" path="MULE_LIB/com.mulesoft.munit/munit-runner/2.3.4"/>
+	<classpathentry kind="con" path="MULE_LIB/org.mule.module/mule-java-module/1.2.7"/>
+	<classpathentry kind="con" path="MULE_LIB/org.mule.modules/mule-soapkit-module/1.2.11"/>
+	<classpathentry kind="con" path="MULE_LIB/org.mule.connectors/mule-http-connector/1.5.24"/>
+	<classpathentry kind="con" path="MULE_LIB/com.mulesoft.modules/mule-secure-configuration-property-module/1.2.3"/>
+	<classpathentry kind="con" path="MULE_LIB/org.mule.connectors/mule-sockets-connector/1.2.1"/>
+	<classpathentry kind="con" path="MULE_LIB/org.mule.examples/accelerator-healthcare-config-module/1.0.0"/>
+	<classpathentry kind="con" path="org.mule.tooling.API_SPEC_LIB/org.mule.examples/fhir-r4-convert-api/1.0.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="MULE_RUNTIME/org.mule.tooling.server.4.4.0.ee"/>
+	<classpathentry kind="src" path="src/main/mule"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="src" path="src/test/munit"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
